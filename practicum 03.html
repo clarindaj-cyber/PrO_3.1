@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservations Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .form-box {
+            width: 500px;
+            border: 2px solid red;
+            padding: 20px;
+            margin: 30px auto;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        label {
+            display: inline-block;
+            width: 140px;
+            margin-bottom: 10px;
+        }
+
+        input, textarea {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+
+        textarea {
+            width: 250px;
+            height: 70px;
+        }
+
+        button {
+            margin-top: 5px;
+            padding: 5px 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="form-box">
+
+    <h2>Reservations Form</h2>
+
+    <form>
+
+        <label>First Name:</label>
+        <input type="text" name="firstname"><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastname"><br>
+
+        <label>Address</label><br>
+
+        <label>Number & Street:</label>
+        <input type="text" name="street"><br>
+
+        <label>City:</label>
+        <input type="text" name="city"><br>
+
+        <label>State:</label>
+        <input type="text" name="state"><br>
+
+        <label>Zip Code:</label>
+        <input type="text" name="zipcode"><br>
+
+        <label>Check-in Date:</label>
+        <input type="date" name="checkin"><br>
+
+        <label>Check-out Date:</label>
+        <input type="date" name="checkout"><br>
+
+        <label>Phone:</label>
+        <input type="tel" name="phone" placeholder="(###) ###-####"><br>
+
+        <label>E-mail Address:</label>
+        <input type="email" name="email" placeholder="name@domain.com"><br>
+
+        <label>Payment Method:</label>
+        <input type="text" name="payment"><br>
+
+        <label>Card Number:</label>
+        <input type="text" name="cardnumber"><br>
+
+        <label>Special Requests:</label>
+        <textarea name="requests" placeholder="Enter your request here"></textarea><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
